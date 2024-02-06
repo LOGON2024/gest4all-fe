@@ -14,16 +14,16 @@ describe('AppComponent', () => {
     expect(app).toBeTruthy();
   });
 
-  it(`should have the 'gest4all-fe' title`, () => {
+  it(`should have the 'agendaFrontEnd' title`, () => {
     const fixture = TestBed.createComponent(AppComponent);
     const app = fixture.componentInstance;
-    expect(app.title).toEqual('gest4all-fe');
+    expect(app.title).toEqual('agendaFrontEnd');
   });
 
   it('should render title', () => {
     const fixture = TestBed.createComponent(AppComponent);
     fixture.detectChanges();
     const compiled = fixture.nativeElement as HTMLElement;
-    expect(compiled.querySelector('h1')?.textContent).toContain('Hello, gest4all-fe');
+    expect(compiled.querySelector('h1')?.textContent).toContain('Hello, agendaFrontEnd');
   });
 });

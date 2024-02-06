@@ -1,0 +1,43 @@
+/* FONTS */
+@import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@700&display=swap');
+
+
+/* BODY */
+body {
+    background: linear-gradient(to bottom, #d2e1e9, #e0e0e0);
+    color: #ffffff;
+    margin: 0;
+    height: 100vh;
+}
+
+/* NAVBRAND */
+.brand{
+    margin-top: 30px;
+    font-family: 'Space Grotesk', sans-serif;
+}
+
+a.home {
+        font-size: 40px;
+}
+
+
+.siteDescription {
+    color: #c0c0c0;
+    font-size: 25px; 
+    margin-top: 10px; 
+    padding-bottom: 10px;
+    border-bottom: solid 1px #ffffff; /* Borda inferior branca de 1 pixel */
+}
+
+/* Criar cliente */
+.formCliente {
+    font-family: 'Space Grotesk', sans-serif;
+    font-size: 20px;
+    border-bottom: solid 1px #ffffff; /* Borda inferior branca de 1 pixel */
+}
+
+.estiloGrupo
+{
+    font-family: 'Space Grotesk', sans-serif;
+    font-size: 20px;
+}
